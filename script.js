@@ -18,8 +18,8 @@ var makePol = function(polName, RGB) {
 	return candidate;
 };
 
-var candidate1 = makePol("Uncle Jay", [223,159,189]);
-var candidate2 = makePol("Auntie Liz", [141,125,212]);
+var candidate1 = makePol("Fetterman", [223,159,189]);
+var candidate2 = makePol("Warren", [141,125,212]);
 
 candidate1.electionResults = [5, 1, 7, 2, 33, 6, 4, 2, 1, 14, 8, 3, 1, 11, 11,
 0, 5, 3, 3, 3, 7, 4, 8, 9, 3, 7, 2, 2, 4, 2, 8, 3, 15, 15, 2, 12, 0, 4, 13, 1,
@@ -124,4 +124,4 @@ row.children[0].innerText = candidate1.name;
 row.children[1].innerText = candidate1.totalVotes;
 row.children[2].innerText = candidate2.name;
 row.children[3].innerText = candidate2.totalVotes;
-row.children[5].innerText = winner+"!!!";
+row.children[5].innerText = winner;
